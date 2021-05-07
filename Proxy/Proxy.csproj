@@ -97,21 +97,47 @@
     </None>
     <None Include="app.manifest" />
     <None Include="packages.config" />
-    <None Include="Tor\Data\Tor\geoip" />
-    <None Include="Tor\Data\Tor\geoip6" />
-    <None Include="Tor\Tor\geoip" />
-    <None Include="Tor\Tor\geoip6" />
+    <None Include="Tor\Data\Tor\geoip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Tor\Data\Tor\geoip6">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Tor\Tor\geoip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Tor\Tor\geoip6">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Tor\Tor\libeay32.dll" />
-    <Content Include="Tor\Tor\libevent-2-0-5.dll" />
-    <Content Include="Tor\Tor\libevent_core-2-0-5.dll" />
-    <Content Include="Tor\Tor\libevent_extra-2-0-5.dll" />
-    <Content Include="Tor\Tor\libgcc_s_sjlj-1.dll" />
-    <Content Include="Tor\Tor\libssp-0.dll" />
-    <Content Include="Tor\Tor\ssleay32.dll" />
-    <Content Include="Tor\Tor\tor.exe" />
-    <Content Include="Tor\Tor\zlib1.dll" />
+    <Content Include="Tor\Tor\libeay32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tor\Tor\libevent-2-0-5.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tor\Tor\libevent_core-2-0-5.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tor\Tor\libevent_extra-2-0-5.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tor\Tor\libgcc_s_sjlj-1.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tor\Tor\libssp-0.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tor\Tor\ssleay32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tor\Tor\tor.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tor\Tor\zlib1.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
